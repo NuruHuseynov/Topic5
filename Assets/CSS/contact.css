@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 5px 8rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+}
+nav .name {
+  display: flex;
+  justify-content: center;
+  margin: 0 10rem;
+}
+nav .name h1 {
+  color: #ffffff;
+  border: 1px solid #4aaaa5;
+  background-color: #4aaaa5;
+  padding: 1rem 2rem;
+}
+nav .nav ul {
+  list-style: none;
+  display: flex;
+  margin: 1rem 0 0 0;
+}
+nav .nav ul li a {
+  color: #717a7a;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+main {
+  background-image: url(../Images/background.png);
+  height: 40rem;
+}
+
+.contact h1 {
+  color: #4aaaa5;
+  font-size: larger;
+  border-bottom: 5px solid #717a7a;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form label {
+  margin: 1rem;
+}
+.form input {
+  width: 30%;
+  margin: 1rem;
+  border: 1px solid #ffffff;
+}
+.form a {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #4aaaa5;
+  padding: 5px 10px;
+  background-color: #4aaaa5;
+  width: 6%;
+  border-radius: 10px;
+}
+
+.sidebar {
+  position: absolute;
+  width: 30%;
+  right: 0;
+  top: 15%;
+}
+.sidebar h3 {
+  background-color: #ffffff;
+  color: #4aaaa5;
+  border-bottom: 5px solid #717a7a;
+  width: 40%;
+  padding: 1rem 1rem;
+}
+.sidebar img {
+  width: 40%;
+  background-color: #ffffff;
+  padding: 1rem 1rem;
+}/*# sourceMappingURL=contact.css.map */

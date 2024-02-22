@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 5px 8rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    
+    .name {
+        display: flex;
+        justify-content: center;
+        margin: 0 10rem;
+
+        h1 {
+            color: #ffffff;
+            border: 1px solid #4aaaa5;
+            background-color: #4aaaa5;
+            padding: 1rem 2rem;
+        }
+    }
+
+    .nav {
+        ul {
+            list-style: none;
+            display: flex;
+            margin: 1rem 0 0 0;
+
+            li {
+                a {
+                    color: #717a7a;
+                    text-decoration: none;
+                    margin: 0 1rem;
+                }
+            }
+        }
+    }
+}
+
+main {
+    background-image: url(../Images/background.png);
+    height: 25rem;
+
+    .main-sec {
+        width: 60%;
+        margin: 2rem 0;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        h1 {
+            color: #4aaaa5;
+            border-bottom: 5px solid #a9acac;
+            margin: 2.7rem 1rem;
+        }
+
+        .main-image {
+            display: flex;
+            margin: 1%;
+
+            img {
+                width: 200px;
+                height: auto;
+                margin: 0 1rem 0 0;
+            }
+
+            p{
+                color: #717a7a;
+                font-size: large;
+            }
+
+        }
+        .main-parag{
+            p{
+                color: #717a7a;
+                margin: 2rem;
+            }
+        }
+    }
+
+    .sidebar{
+        position: absolute;
+        width: 30%;
+        right: 0;
+        top: 15%;
+
+        h3{
+            background-color: #ffffff;
+            color: #4aaaa5;
+            border-bottom: 5px solid #717a7a;
+            width: 40%;
+            padding: 1rem 1rem;
+        }
+
+        img{
+            width: 40%;
+            background-color: #ffffff;
+            padding: 1rem 1rem;
+        }
+    }
+}
+
+footer{
+    p{
+        text-align: center;
+        color: #ffffff;
+        background-color: #717a7a;
+        padding: 2rem;
+        border-top: 5px solid #4aaaa5;
+    }
+}
